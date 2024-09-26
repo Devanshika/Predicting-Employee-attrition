@@ -29,7 +29,7 @@ class Database:
         self.conn.commit()
     def insertData(self, data):
         '''
-        Method for Insertig Data in Table in Database
+        Method for Inserting Data in Table in Database
         '''
         insert_data = """
         INSERT INTO cred(username, password)
